@@ -1,4 +1,4 @@
-<suite name=" Regression Test SUite">
+<suite name="Regression Test Suite">
 <classes>
 <class name = "ShubhiOrg.Salesforce_Testing.ReadOR"></class>
 </classes>
