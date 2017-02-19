@@ -31,8 +31,8 @@ Properties pro=new Properties();
 pro.load(fis);
 
 System.out.println("Property class loaded");
-System.out.println("Username Property : "+ pro.getProperty("Login_UserName.Xpath"));
-System.out.println("Passowrd Property : "+ pro.getProperty("Login_Password.Xpath"));
+System.out.println("Username Property : "+ pro.getProperty("Login_UserName"));
+System.out.println("Passowrd Property : "+ pro.getProperty("Login_Password"));
 //// Open FirefoxBrowser
 //WebDriver driver=new FirefoxDriver();
 //
