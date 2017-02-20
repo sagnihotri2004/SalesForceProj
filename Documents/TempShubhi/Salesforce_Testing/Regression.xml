@@ -1,5 +1,7 @@
 <suite name="Regression Test Suite">
+<test name="Test1" preserve-order="true">
 <classes>
-<class name = "ShubhiOrg.Salesforce_Testing.ReadOR"></class>
+<class name = "ShubhiOrg.Salesforce_Testing.ReadOR1"></class>
 </classes>
+</test>
 </suite>
