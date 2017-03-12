@@ -8,14 +8,20 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class ActionKeywords {
 
 		public static WebDriver driver;
-
-	public static void openBrowser(){		
-		driver=new FirefoxDriver();
+		public static String ResultV;
+	public static String openBrowser(String url ){		
+//		driver=new FirefoxDriver();
+//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+//		driver.get(url);
+		ResultV = "Pass";
+		return ResultV;
 		}
 
-	public static void navigate(){	
+	public static String navigate(){	
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("http://www.store.demoqa.com");
+		ResultV = "Pass";
+		return ResultV;
 		}
 
 	public static void click_MyAccount(){
